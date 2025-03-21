@@ -1,0 +1,50 @@
+[
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Md. Hasan",
+      "job_role": "Admin",
+      "description": "Responsible for building management and administrative tasks."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Salma Akter",
+      "job_role": "Sales Executive",
+      "description": "Handles the sales of apartments and office spaces in the building."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Rafiqul Islam",
+      "job_role": "Home Inspector",
+      "description": "Supervises the safety and maintenance of the building."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Tanvir Rahman",
+      "job_role": "Maintenance Engineer",
+      "description": "Oversees electrical, plumbing, and other technical aspects of the building."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Nadia Karim",
+      "job_role": "Receptionist",
+      "description": "Manages front desk operations and assists visitors."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Jahid Hossain",
+      "job_role": "Security Officer",
+      "description": "Ensures security and safety within the building premises."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Fahim Ahmed",
+      "job_role": "Janitorial Supervisor",
+      "description": "Oversees cleaning and hygiene maintenance of the building."
+    },
+    {
+      "image": "https://i.ibb.co.com/nsjLY5vW/crazy4-png.jpg",
+      "name": "Sadia Rahman",
+      "job_role": "Property Manager",
+      "description": "Handles tenant relations and overall property management."
+    }
+  ]

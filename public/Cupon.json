@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co.com/jZkK7KpH/buliding-img9.jpg",
+    "title": "50% Off",
+    "description": "Get 50% off your next purchase.",
+    "code": "SAVE50",
+    "valid_until": "2025-12-31"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co.com/Q3NKvQ2g/buliding-img7.jpg",
+    "title": "Free Shipping",
+    "description": "Enjoy free shipping on orders over $50.",
+    "code": "FREESHIP",
+    "valid_until": "2025-11-30"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co.com/WvyhHDXV/buliding-img6.jpg",
+    "title": "Buy 1 Get 1",
+    "description": "Buy 1 product and get 1 free.",
+    "code": "B1G1",
+    "valid_until": "2025-10-15"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co.com/s47HFXz/buliding-img2.jpg",
+    "title": "10% Off",
+    "description": "Get 10% off all items storewide.",
+    "code": "STORE10",
+    "valid_until": "2025-09-30"
+  }
+]

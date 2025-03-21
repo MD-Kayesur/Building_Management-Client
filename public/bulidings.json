@@ -1,0 +1,95 @@
+[ 
+    {
+      "id": 1,
+      "img": "https://i.ibb.co.com/jZkK7KpH/buliding-img9.jpg",
+      "building_name": "Ocean View",
+      "floor_no": 3,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 25000
+    },
+    {
+      "id": 1,
+      "img": "https://i.ibb.co.com/mCD3wv1N/buliding-img1.jpg",
+      "building_name": "Ocean View",
+      "floor_no": 3,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 25000
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co.com/s47HFXz/buliding-img2.jpg",
+      "building_name": "Skyline Residency",
+      "floor_no": 5,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 35000
+    },
+    {
+      "id": 3,
+  "img": "https://i.ibb.co.com/d4vGj8tr/buliding-img3.jpg",
+      "building_name": "Green Heights",
+      "floor_no": 10,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 15000
+
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co.com/XfTWx0Jv/buliding-img4.jpg",
+      "building_name": "Skyline Residency",
+      "floor_no": 6,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 26000
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co.com/3mDD8xSN/buliding-img5.jpg",
+      "building_name": "Lakefront Residency",
+      "floor_no": 9,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 35000
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co.com/WvyhHDXV/buliding-img6.jpg",
+      "building_name": "Hilltop Apartments",
+      "floor_no": 3,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 20000
+    }, 
+    {
+      "id": 7,
+      "img": "https://i.ibb.co.com/Q3NKvQ2g/buliding-img7.jpg",
+      "building_name": "Palm Grove",
+      "floor_no": 11,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 24000
+    }, 
+    {
+      "id": 8,
+      "img": "https://i.ibb.co.com/0R5dRQWW/buliding-img8.jpg",
+      "building_name": "City View Tower",
+      "floor_no": 7,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 19000
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co.com/218F69ZC/buliding-img10.jpg",
+      "building_name": "City View Tower",
+      "floor_no": 7,
+      "block_name": "A",
+      "apartment_no": "A-301",
+      "rent": 19000
+    }
+    
+  ]
+  
