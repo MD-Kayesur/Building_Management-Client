@@ -14,11 +14,11 @@ const CuponDetails = () => {
   }, []);
 
   // console.log(params.id);
-  console.log(data);
+//   console.log(data);
 
   const datas = cupons.find((data) => data.id == params.id);
 
-  console.log(datas);
+//   console.log(datas);
 
   //   console.log(item);
   //   const Nacigate = useNavigate();

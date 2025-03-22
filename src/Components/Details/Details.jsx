@@ -9,7 +9,7 @@ const Details = () => {
   // console.log(dataFromParams);
 
   const [datas, setDatas] = useState([]);
-  console.log(datas);
+  // console.log(datas);
   const AxiousURL = useAxious();
 
   useEffect(() => {

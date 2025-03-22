@@ -8,7 +8,7 @@ import useAxious from "../../../Hooks/useAxious";
 const OtherSays = () => {
     const AxiousURL = useAxious()
     const [peoples,setpeoples]=useState([])
-    console.log(peoples);
+    // console.log(peoples);
     const people = peoples.slice(0,6)
     useEffect(()=>{
 

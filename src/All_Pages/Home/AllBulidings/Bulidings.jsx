@@ -8,7 +8,7 @@ const Bulidings = () => {
 
   const [bulidings, setBulidings] = useState([]);
   const someBuliding = bulidings.slice(0, 4);
-  console.log(bulidings);
+//   console.log(bulidings);
   useEffect(() => {
     AxiousURL.get("/buildings").then((res) => {
       setBulidings(res.data);

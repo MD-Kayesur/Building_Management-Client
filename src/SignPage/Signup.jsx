@@ -1,7 +1,7 @@
 import { useContext } from "react";
 
 import Swal from "sweetalert2";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink,   useNavigate } from "react-router-dom";
 
 import { FaGoogle } from "react-icons/fa";
 import { AuthContext } from "../Providers/AuthProviders";
@@ -10,7 +10,7 @@ import Lottie from "react-lottie";
 import useAxious from "../Hooks/useAxious";
 function Signup() {
   const { Signup, updateProfil, GoogleLogIn } = useContext(AuthContext);
-  const navigat = useNavigate();
+  // const navigat = useNavigate();
   const Navigate = useNavigate();
 
   const AxiousURL = useAxious();
@@ -21,7 +21,7 @@ function Signup() {
     const email = form.email.value;
     const password = form.Password.value;
     const photourl = form.photourl.value;
-    console.log(name, photourl);
+    // console.log(name, photourl);
 
     // signup ruls from firebase
     Signup(email, password).then(() => {
@@ -34,7 +34,7 @@ function Signup() {
           photourl,
         };
         AxiousURL.post("/users", userInfo).then((res) => {
-          console.log(res.data);
+          // console.log(res.data);
 
           if (res.data.insertedId) {
             Swal.fire({
@@ -52,9 +52,7 @@ function Signup() {
 
   const handleGoogleLogin = () => {
     GoogleLogIn()
-    .then((res)=>{
-     console.log( res.data) 
-    })
+  
   };
 
   const defaultOptions = {

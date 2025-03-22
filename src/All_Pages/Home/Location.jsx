@@ -24,7 +24,7 @@ const AxiousURL = useAxious()
     const rent = form.rent.value
    
      const info =  {location,BlockName,BlockName,FloorNo,BuildingName,imgurl,rent}
-     console.log(info);
+    //  console.log(info);
      AxiousURL.post('/buildings',info)
      .then(res=>{
       if (res.data.insertedId) {

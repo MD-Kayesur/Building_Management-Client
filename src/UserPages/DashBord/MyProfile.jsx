@@ -1,11 +1,14 @@
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProviders";
-import { data, NavLink } from "react-router-dom";
+import { data, NavLink, useNavigate } from "react-router-dom";
 import { getCurrentDateTime } from "../../Hooks/TimeHook";
 import useAxious from "../../Hooks/useAxious";
+import Swal from "sweetalert2";
 
 const MyProfile = () => {
   const { user } = useContext(AuthContext);
+  const Navigate = useNavigate();
+  const { signout } = useContext(AuthContext);
 
   const date = getCurrentDateTime(); // 2025-03-20 14:35:20
   // const time =(getCurrentDateTime('/', '.'));    // 2025/03/20 14.35.20
@@ -14,7 +17,16 @@ const MyProfile = () => {
    const name = user?.auth?.currentUser?.displayName;
   const photo = user?.auth?.currentUser?.photoURL;
    
-
+  const handlerSignout = () => { 
+    signout().then(() => {
+      Swal.fire({
+        title: " success!",
+        icon: "success",
+        draggable: true,
+      });
+      Navigate("/login");
+    });
+  };
   return (
      <div
           className="hero bg-fixed bg-cover  md:mb-10     bg-gradient-to-r from-blue-500 to-purple-500 text-white ">
@@ -32,9 +44,12 @@ const MyProfile = () => {
                     Email: {user?.email}{" "}
                   </h1>
                  <h2>Log in time : {date}</h2>
- 
+                 <NavLink onClick={handlerSignout}  className='btn btn-outline text-white m-20 btn-warning'  >Log Out</NavLink> 
+
                 </div>
+
               </div>
+              
             </div>
           </div>
         </div>

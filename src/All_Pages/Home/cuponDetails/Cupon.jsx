@@ -6,7 +6,7 @@ const Cupon = () => {
   const navigate = useNavigate();
   const AxiousURL = useAxious();
   const [Cupon, setCupon] = useState([]);
-  console.log(Cupon);
+  // console.log(Cupon);
   useEffect(() => {
     AxiousURL.get("/cupons").then((res) => {
       setCupon(res.data);

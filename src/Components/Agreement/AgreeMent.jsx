@@ -8,7 +8,7 @@ const AgreeMent = () => {
   // console.log(dataFromParams);
   const AxiousURL = useAxious();
   const [datas, setDatas] = useState([]);
-  console.log(datas);
+  // console.log(datas);
 
   useEffect(() => {
     const fetchData = async () => {

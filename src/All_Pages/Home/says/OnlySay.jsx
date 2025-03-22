@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
  
 
 const OnlySay = ({item}) => {
-    console.log(item.image);
+    // console.log(item.image);
 
     return (
         <div>

@@ -8,7 +8,7 @@ const Apartment = () => {
   const AxiousURL = useAxious();
   const [bulidings, setBulidings] = useState([]);
 
-  console.log(bulidings);
+  e.log(bulidings);
   useEffect(() => {
     AxiousURL.get("/buildings").then((res) => {
       setBulidings(res.data);

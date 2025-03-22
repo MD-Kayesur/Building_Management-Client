@@ -18,7 +18,7 @@ const Announcements = () => {
       return refetch, result.data;
     },
   });
-  console.log(announments);
+//   console.log(announments);
 
   //   useEffect(() => {
   //     AxiousURL.get("/announcement")
@@ -40,7 +40,7 @@ const Announcements = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         AxiousURL.delete(`/announcement/${item._id}`).then((res) => {
-          console.log(res.data);
+        //   console.log(res.data);
           if (res.data.deletedCount > 0) {
             refetch();
             Swal.fire({

@@ -23,7 +23,7 @@ const AdminAnnouncements = () => {
     };
     // signup ruls from firebase
     AxiousURL.post("/announcement", AnnounmentsInfo).then((res) => {
-      console.log(res.data);
+    //   console.log(res.data);
 
       if (res.data) {
         Swal.fire({

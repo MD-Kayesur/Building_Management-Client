@@ -11,7 +11,7 @@ const DashBors = () => {
 const {user} = useContext(AuthContext)
  
 // const isAdmin = true
-const isAdmin = user?.email == 'rmdkayesur@gmail.com'
+const isAdmin = (user?.email === 'iamadmin@gmail.com')
 
     return (
         <div className="w-11/12 flex mx-auto py-5">
