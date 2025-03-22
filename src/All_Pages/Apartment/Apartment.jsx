@@ -77,7 +77,7 @@ const Apartment = () => {
       </div>
 
       <div>
-        <NavLink to="/location"> Add A Apperment </NavLink>
+        <NavLink className='btn  btn-outline btn-primary my-5 ' to="/location"> Add A Apperment </NavLink>
       </div>
     </div>
   );
