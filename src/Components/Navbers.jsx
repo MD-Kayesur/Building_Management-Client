@@ -72,9 +72,11 @@ const Navbers = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
             {navlink}
-            <li>
-        <NavLink className='  text-black font-semibold' to='/login'>login</NavLink>
-        </li>
+           {
+            user? <><NavLink onClick={handlerSignout}  className='text-black font-semibold'  >Log Out</NavLink> </> :<> <li>
+            <NavLink className='  text-black font-semibold' to='/login'>login</NavLink>
+            </li></>
+           }
           </ul>
         </div>
         <div className="flex  gap-2 items-center">
