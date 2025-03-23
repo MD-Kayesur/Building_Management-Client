@@ -43,7 +43,7 @@ const bulidingsss = bulidings?.filter(buliding =>
 
       <div>
   <input
-    type="text"
+    type="number"
     placeholder="Search by Rent...."
     value={search}
     onChange={(e) => setsearch(e.target.value)}
