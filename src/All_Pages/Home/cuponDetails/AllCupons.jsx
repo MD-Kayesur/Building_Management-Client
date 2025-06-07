@@ -25,7 +25,7 @@ const AllCupons = () => {
   };
 
   return (
-    <div className="grid md:mb-10 gap-10 md:grid-cols-4  ">
+    <div className="grid md:mb-10 gap-10 md:grid-cols-4  pt-20 ">
       {/* {Cupon?.map((item) => <CuponDetails item={item}></CuponDetails>)} */}
       {Cupon?.map((item) =>  <div
           key={item.id}

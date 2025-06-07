@@ -9,8 +9,8 @@ import { AuthContext } from "../../../Providers/AuthProviders";
 const AllUsers = () => {
   // const [user,setusers]= useState([])
   const AxiousURL = useAxious();
-  const { user } = useContext(AuthContext);
-  const isAdmin = user?.email === "iamadmin@gmaill.com";
+  // const { user } = useContext(AuthContext);
+  // const isAdmin = user?.email === "iamadmin@gmaill.com";
 
   const { refetch, data: users = [] } = useQuery({
     queryKey: ["users"],

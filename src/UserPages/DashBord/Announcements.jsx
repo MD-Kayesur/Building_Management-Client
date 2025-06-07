@@ -8,9 +8,9 @@ import Swal from "sweetalert2";
 const Announcements = () => {
   //   const [announcement, setAnnouncement] = useState();
   //   console.log(announcement);
-  const AxiousURL = useAxious();
-
+  
   //   consolelog or use that  announments nor it will show error
+  const AxiousURL = useAxious();
   const { refetch, data: announments = [] } = useQuery({
     queryKey: ["announments"],
     queryFn: async () => {

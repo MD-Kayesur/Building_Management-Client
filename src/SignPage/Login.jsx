@@ -12,11 +12,13 @@ import Swal from "sweetalert2";
 import { AuthContext } from "../Providers/AuthProviders";
 import Lottie from "react-lottie";
 import { FaGoogle } from "react-icons/fa6";
+import Usejwt from "../Hooks/Usejwt";
 // import Sociallogin from "../../components/Sociallogin";
 
 function Login() {
   const captaRef = useRef(null);
   const [disabled, setDisabled] = useState(true);
+  const {jwttoken,postJwt}= Usejwt()
   const Navigate = useNavigate();
   const location = useLocation();
   const forms = location?.state?.form?.pathname || "/";
@@ -42,13 +44,20 @@ function Login() {
     const password = form.password.value;
 
     // console.log(email, password);
-    signin(email, password).then(() => {
+    signin(email, password).then((result) => {
+      console.log(result.user.email);
+      const user = {
+        email:result.user.email
+      }
+  postJwt(user);  
+
+ 
       Swal.fire({
         title: " success!",
         icon: "success",
         draggable: true,
       });
-      Navigate(forms, { replace: true });
+      // Navigate(forms, { replace: true });
     });
   };
 
